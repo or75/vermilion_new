@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\msg">
+      <UniqueIdentifier>{4f88da40-3be5-4e70-b520-5bed5fe5865d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\leis">
+      <UniqueIdentifier>{f7baa69d-ccb8-4e2b-bc8e-e1c67e42caab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\leis">
+      <UniqueIdentifier>{c501603b-fc67-4b9a-a49d-dffd34f7eced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\base">
+      <UniqueIdentifier>{4002bf05-2447-4e86-8c3b-7ae06b46007e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\base">
+      <UniqueIdentifier>{c44921a8-1662-4327-b89d-73e8e5ecc212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ValveSDK\misc\parsemsg.cpp">
+      <Filter>Заголовочные файлы\msg</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_client.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_cvar.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_utils.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_menu.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="enginemsg.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="offset.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="usermsg.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Файлы исходного кода\base</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_cheat.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_aimbot.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_player.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_math.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_esp.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_nospread.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+    <ClCompile Include="leis\_weaponlist.cpp">
+      <Filter>Файлы исходного кода\leis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValveSDK\misc\parsemsg.h">
+      <Filter>Заголовочные файлы\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_client.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_cvar.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_utils.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_menu.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="enginemsg.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="usermsg.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Заголовочные файлы\base</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_cheat.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_aimbot.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_player.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_math.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_esp.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_nospread.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_weaponlist.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+    <ClInclude Include="leis\_xorstr.h">
+      <Filter>Заголовочные файлы\leis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
